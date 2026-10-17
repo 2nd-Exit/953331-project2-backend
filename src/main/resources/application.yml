@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: passport-backend
+    datasource:
+        url: jdbc:postgresql://localhost:5432/camt_passport
+        username: postgres
+        password: password
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
